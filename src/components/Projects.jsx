@@ -67,19 +67,19 @@ const projects = [
   },
   {
     name: 'The Bloom',
-    tagline: 'Cinematic Phaser-based retro game (Infection world).',
+    tagline: 'Cinematic Phaser-based retro game.',
     description:
-      'A post-apocalyptic cinematic retro game inspired by "The Last of Us", featuring retro animations, background soundtracks, and custom graphic transitions.',
+      'A cinematic survival horror game following Chaitanya as he flees Chennai to protect his daughter Nancy from a global parasitic outbreak (Bunga Matahari).',
     tags: ['Phaser', 'JavaScript', 'HTML5', 'Game Dev', 'Web Audio'],
     accent: 'purple',
     link: 'https://github.com/cser-utkarsh-raj/the-bloom',
     emoji: '🧟',
     status: 'under development',
     features: [
-      'Interactive retro game environment built using Phaser JS',
-      'Cinematic letterbox preloader and audio managers',
-      'Custom sprite-sheet animations & retro key mappings',
-      'Immersive audio transitions for background atmosphere'
+      'Event Zero ocean research to the collapse of the Red Zone',
+      'Tense encounters with infected hosts and rogue survivors like Sikander',
+      'Interactive Phaser JS gameplay layers depicting warning signs & Government alerts',
+      'Atmospheric retro preloader screens and synthesised Web Audio heartbeat cues'
     ],
   },
 ];

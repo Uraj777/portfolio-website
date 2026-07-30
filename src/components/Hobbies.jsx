@@ -3,43 +3,43 @@ import { BookOpen, Film, Compass } from 'lucide-react';
 const creativeWorks = [
   {
     title: 'The Biker',
-    medium: 'Gritty Action Screenplay Outline',
-    logline: 'An ex-convict mechanic flees to Ooty to escape his past. Years later, he returns to Delhi on his father\'s rebuilt motorcycle to confront the criminal empire that betrayed him.',
-    details: 'Explores themes of vengeance, tragic redemption, and character transformation across multiple decades (1980s–2010s).',
+    medium: 'Action Drama Outline',
+    logline: 'A retired convict mechanic flees to Ooty to start over, but must eventually return to Delhi to rebuild his father\'s motorcycle and confront his past.',
+    details: 'Focuses on tragic redemption, multi-decade timelines (1980s–2010s), and the cyclical nature of violence.',
     emoji: '🏍️',
     accent: '#fbbf24', // yellow
   },
   {
+    title: 'Babygirl',
+    medium: 'Non-linear Tragedy Script',
+    logline: 'A reverse emotional autopsy of Nithya Thomas, tracing her life from childhood warmth in Ooty to absolute isolation during the pandemic.',
+    details: 'Focuses on family ties, emotional archaeology, and how human connections slowly break down over decades.',
+    emoji: '🧸',
+    accent: '#c084fc', // purple
+  },
+  {
+    title: 'Battleworld: Free Fire',
+    medium: 'Survival Thriller Screenplay',
+    logline: 'Three mobile gamers are lured to a billionaire\'s private island under the guise of a treasure hunt, only to find themselves in a streamed battle to the death.',
+    details: 'A high-stakes psychological action drama and social satire on internet celebrity and survival instincts.',
+    emoji: '🔥',
+    accent: '#f97316', // orange
+  },
+  {
     title: 'Crimson Curse',
     medium: 'Dark Fantasy Thriller',
-    logline: 'A dark fantasy story following a family bound to a generational blood covenant that triggers under every lunar eclipse.',
-    details: 'Focuses on gothic suspense, ancient curses, and visual story pacing.',
+    logline: 'A gothic script following a family bound to an ancient blood covenant that forces them to confront a dark curse under every lunar eclipse.',
+    details: 'Combines dark folklore, visual story pacing, and bloodline curses.',
     emoji: '🩸',
     accent: '#fb7185', // rose
   },
   {
     title: 'Nirvana',
-    medium: 'Philosophical Drama Script',
-    logline: 'A three-part screenplay outline (The Origin, The Call, and The Doom) tracing existential choices, human nature, and fate.',
-    details: 'Focuses on character-driven dialogue, sparse dialogue pacing, and psychological tension.',
+    medium: 'Philosophical Drama Outline',
+    logline: 'A three-part script outline (The Origin, The Call, and The Doom) that dissects human nature, fate, and the weight of existential choices.',
+    details: 'Focuses on character-driven dialogue and sparse, slow-burn psychological tension.',
     emoji: '🕯️',
     accent: '#38bdf8', // sky
-  },
-  {
-    title: 'Battleworld (Brahmand Rakshak)',
-    medium: 'Science Fantasy Epic Outline',
-    logline: 'A high-concept superhero space-opera following a cosmic warrior fighting to defend the boundaries of the universe from extra-dimensional threats.',
-    details: 'Highlights massive scale world-building, science fiction technology concepts, and high-stakes action pacing.',
-    emoji: '🌌',
-    accent: '#a3e635', // lime
-  },
-  {
-    title: 'Babygirl',
-    medium: 'Crime Thriller Screenplay',
-    logline: 'A suspenseful thriller tracking a father\'s desperate search for his missing daughter, gradually unravelling a web of deep small-town secrets.',
-    details: 'Emphasizes detective investigation structures, dialogue subtext, and slow-burn dramatic tension.',
-    emoji: '🧸',
-    accent: '#c084fc', // purple
   }
 ];
 
@@ -51,7 +51,7 @@ export default function Hobbies() {
           <span className="section-label">creative side</span>
           <h2 className="section-title">creative writing</h2>
           <p className="section-subtitle">
-            When I'm not writing code, I outline stories and screenplay concepts. Building narratives and character arcs keeps my problem-solving structured and imaginative.
+            When I\'m not writing code, I outline stories and screenplay concepts. Building narratives and character arcs keeps my problem-solving structured and imaginative.
           </p>
         </div>
 
