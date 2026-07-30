@@ -11,11 +11,35 @@ const creativeWorks = [
   },
   {
     title: 'Crimson Curse',
-    medium: 'Dark Fantasy Thriller Series',
-    logline: 'A multi-part fantasy horror series detailing a cursed lineage bound to lunar eclipses and ancient blood moons, fighting to break a multi-generational blood covenant.',
-    details: 'Focuses on complex supernatural world-building, atmospheric suspense, and multi-character ensemble narrative designs.',
+    medium: 'Dark Fantasy Thriller',
+    logline: 'A dark fantasy story following a family bound to a generational blood covenant that triggers under every lunar eclipse.',
+    details: 'Focuses on gothic suspense, ancient curses, and visual story pacing.',
     emoji: '🩸',
     accent: '#fb7185', // rose
+  },
+  {
+    title: 'Nirvana',
+    medium: 'Philosophical Drama Script',
+    logline: 'A three-part screenplay outline (The Origin, The Call, and The Doom) tracing existential choices, human nature, and fate.',
+    details: 'Focuses on character-driven dialogue, sparse dialogue pacing, and psychological tension.',
+    emoji: '🕯️',
+    accent: '#38bdf8', // sky
+  },
+  {
+    title: 'Battleworld (Brahmand Rakshak)',
+    medium: 'Science Fantasy Epic Outline',
+    logline: 'A high-concept superhero space-opera following a cosmic warrior fighting to defend the boundaries of the universe from extra-dimensional threats.',
+    details: 'Highlights massive scale world-building, science fiction technology concepts, and high-stakes action pacing.',
+    emoji: '🌌',
+    accent: '#a3e635', // lime
+  },
+  {
+    title: 'Babygirl',
+    medium: 'Crime Thriller Screenplay',
+    logline: 'A suspenseful thriller tracking a father\'s desperate search for his missing daughter, gradually unravelling a web of deep small-town secrets.',
+    details: 'Emphasizes detective investigation structures, dialogue subtext, and slow-burn dramatic tension.',
+    emoji: '🧸',
+    accent: '#c084fc', // purple
   }
 ];
 
@@ -67,14 +91,14 @@ export default function Hobbies() {
         }
         .hobbies-grid {
           display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 22px;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 18px;
         }
         .hobby-card {
           position: relative;
           display: flex;
           flex-direction: column;
-          padding: 26px 24px;
+          padding: 24px 22px;
           border: 1px solid var(--border);
           border-radius: 18px;
           background: var(--bg-card);
@@ -92,8 +116,8 @@ export default function Hobbies() {
           margin-bottom: 20px;
         }
         .hobby-emoji {
-          font-size: 1.6rem;
-          width: 44px; height: 44px;
+          font-size: 1.5rem;
+          width: 40px; height: 40px;
           display: grid;
           place-items: center;
           border-radius: 10px;
@@ -108,7 +132,7 @@ export default function Hobbies() {
           letter-spacing: 0.04em;
         }
         .hobby-title {
-          font-size: 1.25rem;
+          font-size: 1.2rem;
           margin-bottom: 16px;
         }
         .hobby-details {
@@ -131,11 +155,14 @@ export default function Hobbies() {
         }
         .hobby-desc {
           color: var(--text-muted);
-          font-size: 0.84rem;
+          font-size: 0.82rem;
           line-height: 1.45;
         }
 
-        @media (max-width: 860px) {
+        @media (max-width: 1024px) {
+          .hobbies-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
           .hobbies-grid { grid-template-columns: 1fr; }
         }
       `}</style>

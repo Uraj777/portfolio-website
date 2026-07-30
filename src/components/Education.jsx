@@ -45,10 +45,12 @@ const timeline = [
 const certs = [
   'HackerRank Python (Basic)',
   'Infosys Springboard – Flask Basics',
+  'Electronic Arts (EA) – Software Engineering Job Simulation (Forage)',
 ];
 
 const achievements = [
   'Secured offers from Capgemini and TCS.',
+  'Trained in ServiceNow Administration Fundamentals (CSA) & Application Development (CAD).',
   'Solved 200+ DSA problems with a 5-Star Python rating on HackerRank.',
   'Winner – Zero Hour Summit Debate Competition.',
 ];
