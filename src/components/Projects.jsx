@@ -40,7 +40,7 @@ const projects = [
       'An enterprise stationery store platform that automates inventory tracking, low-stock warnings, and student request workflows. Student approvals deduct inventory via inter-service communications.',
     tags: ['Java', 'Spring Boot', 'React', 'Docker', 'Jenkins'],
     accent: 'lime',
-    link: 'https://github.com/cser-utkarsh-raj/Stationery-Management-System',
+    link: 'https://github.com/cser-utkarsh-raj/Final-Project',
     emoji: '📦',
     features: [
       'Spring Boot microservices with Feign Client communication',
@@ -56,7 +56,7 @@ const projects = [
       'A responsive desktop game designed to test typing speed and accuracy under Easy, Medium, and Hard difficulties. Includes real-time metric trackers and sound effects.',
     tags: ['Python', 'Pygame', 'Game Dev', 'Sound Design'],
     accent: 'yellow',
-    link: 'https://github.com/cser-utkarsh-raj/Typing-Ninja2',
+    link: 'https://github.com/Uraj777/Typing-Ninja2',
     emoji: '🥷',
     features: [
       '3 dynamic difficulty modes with custom word lists',
