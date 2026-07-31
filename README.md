@@ -2,8 +2,6 @@
 
 A modern, responsive developer portfolio built with React and Vite.
 
-[![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-inerzrzf)
-
 ## Tech Stack
 
 - **React 18** + **Vite 5** — fast, modern frontend
