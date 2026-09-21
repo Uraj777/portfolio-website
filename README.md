@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built with React and Vite.
 
 ## Tech Stack
 
-- **React 18** + **Vite 5** — fast, modern frontend
+- **React 18** + **Vite 6** — fast, modern frontend
 - **lucide-react** — clean, consistent icons
 - **GitHub Pages** — free hosting directly from this repo
 - **GitHub Actions** — auto-build and deploy on every push
