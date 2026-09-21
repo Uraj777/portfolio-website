@@ -1,7 +1,7 @@
 const groups = [
   {
     title: 'Languages',
-    items: ['Java', 'Python', 'JavaScript', 'SQL'],
+    items: ['Python', 'Java', 'TypeScript', 'JavaScript', 'SQL'],
   },
   {
     title: 'Frameworks & Database',
@@ -13,7 +13,7 @@ const groups = [
   },
   {
     title: 'Core Concepts',
-    items: ['REST APIs', 'Microservices', 'OOP', 'DSA', 'DBMS', 'Operating Systems', 'Computer Networks', 'CI/CD'],
+    items: ['REST APIs', 'Microservices', 'OOP', 'DSA', 'DBMS', 'Operating Systems', 'Computer Networks', 'CI/CD' , 'AI/ML Fundamentals'],
   },
 ];
 
