@@ -9,7 +9,7 @@ const groups = [
   },
   {
     title: 'Tools',
-    items: ['Git', 'GitHub', 'Docker', 'Jenkins', 'Maven', 'Postman'],
+    items: ['Git', 'GitHub', 'Docker', 'Jenkins', 'Maven', 'Postman' , 'Antigravity'],
   },
   {
     title: 'Core Concepts',
